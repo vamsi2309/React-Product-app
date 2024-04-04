@@ -1,0 +1,65 @@
+.container {
+  height: 86vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+/* .container1 {
+  display: none;
+} */
+.slider {
+  height: 88%;
+  width: 100%;
+  box-shadow: 0px 1px 5px black;
+  border-radius: 1rem;
+  z-index: -1;
+}
+.arrow {
+  position: absolute;
+  height: 2rem;
+  filter: drop-shadow(0px 0px 5px orange);
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 0.5rem;
+}
+.arrow-right {
+  right: 1.5rem;
+}
+.indicater {
+  display: flex;
+  position: absolute;
+  bottom: 1%;
+  left: 40%;
+}
+.indicaters {
+  background-color: orange;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  margin: 0 0.2rem;
+}
+.indicators-hidden {
+  background-color: white;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  margin: 0 0.2rem;
+}
+
+.slide-hidden {
+  display: none;
+}
+.title {
+  position: absolute;
+  bottom: 18%;
+  left: 23%;
+  color: orange;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.title-hidden {
+  display: none;
+}

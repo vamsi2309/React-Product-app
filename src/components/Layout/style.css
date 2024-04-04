@@ -1,0 +1,14 @@
+.entry {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: auto; /* Each row will be sized automatically */
+}
+
+.menu12 {
+  height: 10vh;
+}
+
+.child {
+  /* Styles for child elements */
+}
